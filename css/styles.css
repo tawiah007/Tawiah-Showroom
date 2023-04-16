@@ -1,0 +1,124 @@
+/* SELECTORS */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    padding: 25px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.address-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(182, 182, 182);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.address-link:hover {
+    text-decoration: underline #fff;
+    color: #fff;
+}
+
+.address-p {
+    /* padding: 2% 0; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(182, 182, 182);
+}
+
+.para {
+    color: rgb(182, 182, 182);
+}
+
+.home-btns {
+    width: 300px;
+    border: solid 1px;
+    border-radius: 0%;
+    margin: 10px;
+}
+
+.au-btn {
+    width: 100px;
+    margin: 5px;
+    border-radius: 0;
+}
+
+
+.icon {
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+.p-5 {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.card-margin {
+    margin: 0 15% 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: solid 1px;
+    font-size: 16px;
+}
+
+.sub-btn {
+    padding: 10px;
+    border-radius: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 50px 0;
+}
+
+#testimonials {
+    padding: 7%;
+    margin: 2% 0;
+    height: 700px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
